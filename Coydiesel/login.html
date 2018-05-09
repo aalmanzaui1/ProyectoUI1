@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Coy Baez Diesel</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="own.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="main.html">Menu principal</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="main.html">Inicio <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="servicios.html">Servicios</a>
+                <a class="nav-item nav-link active" href="contacto.html">Contacto</a>
+                <a class="nav-item nav-link active" href="login.html">Login</a>
+              </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                 <!-- cloumna de posicion -->
+                <div class="col-sm-3" ></div>
+                 <!-- cloumna de posicion -->
+                 
+                <div class="col-sm-6 bg-light text-black" >
+                    <img src="diesel_motor.jpg" class="img-responsive">
+                    <form role="form" id ="myform" action="index.php" method="post">
+                        <div class="form-group">
+                            <h2>Taller Coy Baez</h2>
+                                <label for="LabelInputNonmbre"> Nombre de Usuario</label>
+                                <input type="text" name="usuario[nombre]" class="form-control" id="InputNonmbre" required="true">
+                        </div>
+                        <div class="form-group">
+                                <label for="LabelInputpass"> contraseña</label>
+                                <input type="password" name="usuario[contrasenia]" class="form-control" id="Inputpass" required="true">
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-default">Iniciar</button>
+                        </div>
+                    </form> 
+                </div>
+                 
+                 <!-- cloumna de posicion -->
+                <div class="col-sm-3" ></div>
+                 <!-- cloumna de posicion -->
+            </div>
+        </div>
+    </body>
+</html>
