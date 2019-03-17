@@ -1,4 +1,6 @@
-CREATE DATABASE `administracion` /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_spanish_ci */;
+-- CREATE DATABASE `administracion` /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_spanish_ci */;
+-- Won't need to create the database
+
 CREATE TABLE `adm` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `usuario` varchar(45) COLLATE utf8_spanish_ci NOT NULL,

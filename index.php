@@ -23,11 +23,7 @@ and open the template in the editor.
     $con=false;
     $datos=$_POST["usuario"];
     $link;
-    $host="localhost";
-    $puerto = "3306"; 
-    $usuario = "ui1";
-    $pass = "almanza";
-    $baseDeDatos ="administracion";
+    include ("config.php");
     //$tabla = "personas";
     ComprobacionInicial();
     
