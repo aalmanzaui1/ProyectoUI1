@@ -10,13 +10,9 @@
 </head>
 <body>
 <?php
+    include ("config.php");
     $con=false;
     $link;
-    $host="localhost";
-    $puerto = "3306"; 
-    $usuario = "ui1";
-    $pass = "almanza";
-    $baseDeDatos ="administracion";
 function Conectarse() 
     {
         global $host, $puerto, $con, $link, $baseDeDatos, $usuario, $pass;
